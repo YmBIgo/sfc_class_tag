@@ -11,7 +11,7 @@ class CommentsController < ApplicationController
   end
   private
   def comment_params
-    params.require(:comment).permit(:href, :content, :x_pos, :y_pos)
+    params.require(:comment).permit(:href, :content, :x_pos, :y_pos, :category)
   end
 
 end

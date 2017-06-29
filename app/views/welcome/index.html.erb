@@ -13,6 +13,10 @@
       </div>
       <%= form_for(@comment, url: comments_path(), method: :post, remote: true) do |f| %>
         <div class="modal-body">
+          <p>
+            カテゴリーを選択：
+            <%= f.select :category ,{'良いところ' => '1', '悪いところ' => '0'}, :prompt => '選択してください' %>
+          </p>
           <%= f.hidden_field :href, :id => "href-area" %>
           <%= f.text_area :content, :class => "form-control" %>
         </div>
@@ -27,6 +31,7 @@
 <% @comments.each do |c| %>
   <h4>Xpath    : <%= c.href %></h4>
   <h4>Position : <%= c.x_pos %>/<%= c.y_pos %></h4>
+  <h4>Category  :<%= c.category %> </h4>
   <h4>Content  : <%= c.content %></h4>
   <br>
 <% end %>
