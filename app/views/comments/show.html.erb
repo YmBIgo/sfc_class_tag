@@ -1,6 +1,29 @@
-<h3><%= @comment.content %> <small>@<%= @comment.href %></small></h3>
+<h3><%= @comment.content %>　<small>:<%= @comment.href %>@<a href="/sfc_pages/<%= @comment.page_name %>"><%= @comment.page_name %></a></small></h3>
 <hr>
-
-
-
+<br>
+<div class="row">
+<% @henshins.each do |h| %>
+  <% if @comment.id == h.user_id %>
+    <div class="col-xs-offset-6 col-xs-6">
+      <p class="alert alert-success text-right" style="width:80%;">
+        <%= h.content %>
+      </p>
+    </div>
+  <% else %>
+    <div class="col-xs-12">
+      <p class="alert alert-warning text-left" style="width:40%;">
+      <%= h.content %>
+      </p>
+    </div>
+  <% end %>
+<% end %>
+</div>
+<hr>
+<%= form_for @new_henshin do |f| %>
+  <p>
+  <%= f.text_field :content, :class => "form-control", :style => "width:85%;display:inline" %>
+  <%= f.hidden_field :comment_id, :value => @comment.id %>
+  　<%= f.submit "send", :class => "btn btn-primary", :style => "margin: 10px 0;display:inline" %>
+  </p>
+<% end %>
 

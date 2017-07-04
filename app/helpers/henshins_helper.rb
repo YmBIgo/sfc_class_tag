@@ -1,0 +1,2 @@
+module HenshinsHelper
+end
