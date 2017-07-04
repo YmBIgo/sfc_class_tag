@@ -28,8 +28,9 @@ $(document).on 'ajax:error', '#createComment', (xhr, data, status) ->
     form.prepend(div)
 
 $(document).on('click', '.sfc-area', (e) ->
-  mouseX = e.pageX
-  mouseY = e.pageY
+  mouseX = e.pageX - 25
+  mouseY = e.pageY - 100
+
   xposLeng = $('#xpos-area').length
   if xposLeng >= 1
     $('.modal-body input#xpos-area').remove()

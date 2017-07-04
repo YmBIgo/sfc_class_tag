@@ -1,0 +1,565 @@
+/* tag */
+
+.sfc-area {
+  background: #cbd7e4 url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/bg.gif) repeat-x;
+  margin-left:10px;
+  margin-right:auto;
+  padding: 20px;
+  line-height: 1.6em;
+  color: #333333;
+  font-size: 90%;
+  font-family: "Century Gothic",Verdana,Arial,sans-serif;
+  text-align:left;
+  width:900px;
+  float: left;
+}
+
+.sfc-area.full {
+  background: #ffffff repeat-x;
+  margin: 10px 0 0 10px;
+  padding: 0px;
+  line-height: 1.6em;
+  color: #333333;
+  font-family: "Century Gothic",Verdana,Arial,sans-serif;
+  text-align:left;
+  width: 95%;
+  float: left;
+}
+
+h1 { margin: 0 }
+
+h5 { font-size: 12px; }
+
+a:link{
+  color: #333399;
+  text-decoration: none;
+}
+a:visited{
+  color: #333366;
+  text-decoration: none;
+}
+a:hover{
+  color: #333399;
+  text-decoration: underline;
+}
+a:active{
+  color: #6666ff;
+  text-decoration: underline;
+}
+
+/* navigation */
+#navigation {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+.navi01 {
+  background-image: url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_yellow.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #ffcc66;
+}
+.navi02 {
+  background-image: url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_pink.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #ffcccc;
+}
+.navi03 {
+  background-image: url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_green.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #cccc99;
+}
+
+.navi04 {
+  background-image: url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_purple.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #C8C8FF;
+}
+/* footer */
+#footer {
+  clear: both;
+  margin: 20px 0 20px 0;
+  border-top: 1px solid #FFFFFF;
+  padding: 10px;
+}
+#copyright {
+  font-size: 85%;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* contents */
+
+h3.one {
+        margin:0;
+        font-weight: bold;
+        font-size: 14px;
+        border-left: #FFCC66 6px solid;
+        border-top: #CCCCCC 1px solid;
+        border-right: #CCCCCC 1px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 18px;
+        background-color: #EEEEEE;
+        padding: 3px 5px 3px 8px;
+}
+
+h3.two {
+        margin:0;
+        font-weight: bold;
+        font-size: 14px;
+        border-left: #FFCCCC 6px solid;
+        border-top: #CCCCCC 1px solid;
+        border-right: #CCCCCC 1px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 18px;
+        background-color: #EEEEEE;
+        padding: 3px 5px 3px 8px;
+}
+
+h3.three {
+        margin:0;
+        font-weight: bold;
+        font-size: 14px;
+        border-left: #CCCC99 6px solid;
+        border-top: #CCCCCC 1px solid;
+        border-right: #CCCCCC 1px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 18px;
+        background-color: #EEEEEE;
+        padding: 3px 5px 3px 8px;
+}
+
+h3.four {
+        margin:0;
+        font-weight: bold;
+        font-size: 13px;
+        border-left: #C8C8FF 10px solid;
+        border-top: #CCCCCC 1px solid;
+        border-right: #CCCCCC 1px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 18px;
+        background-color: #EEEEEE;
+        padding: 3px 5px 3px 8px;
+}
+
+
+td {
+        font-size: 12px;
+}
+th {
+        font-size: 12px;
+}
+
+body.class {
+  background: #ffffff repeat-x;
+  margin: 10px 0 0 10px;
+  padding: 0px;
+  line-height: 1.6em;
+  color: #333333;
+  font-size: 90%;
+  font-family: "Century Gothic",Verdana,Arial,sans-serif;
+  width: 100%;
+}
+
+.rnavi01 {
+  background: #ffcc66 url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_yellow.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #ffcc66;
+}
+
+.rnavi02 {
+  background: #ffcccc url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_pink.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #ffcccc;
+}
+.rnavi03 {
+  background: #cccc99 url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_green.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #cccc99;
+}
+.rnavi04 {
+  background: #C8C8FF url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/arrow_purple.gif);
+  background-repeat: no-repeat;
+  padding: 0 5px 0 23px;
+  margin: 0 20px 0 0;
+  line-height: 18px;
+  float: left;
+  border: 1px solid #C8C8FF;
+}
+
+ul.small {     
+  line-height: 1.3em;
+}
+
+li {
+  font-size: 12px;
+}
+
+ul.sq {
+  line-height: 1.3em;
+  font-size: 12px;
+  list-style-image: url('https://vu9.sfc.keio.ac.jp/sfc-sfs/img2/square_g.gif');
+}
+
+h4.one {
+        margin:0;
+        font-weight: bold;
+        font-size: 13px;
+        border-left: #FFCC66 10px solid;
+        border-top: #CCCCCC 0px solid;
+        border-right: #CCCCCC 0px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 15px;
+        background-color: #FFFFFF;
+        padding: 3px 5px 3px 8px;
+}
+
+h4.two {
+        margin:0;
+        font-weight: bold;
+        font-size: 13px;
+        border-left: #FFCCCC 10px solid;
+        border-top: #CCCCCC 0px solid;
+        border-right: #CCCCCC 0px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 15px;
+        background-color: #FFFFFF;
+        padding: 3px 5px 3px 8px;
+}
+
+h4.three {
+        margin:0;
+        font-weight: bold;
+        font-size: 13px;
+        border-left: #CCCC99 10px solid;
+        border-top: #CCCCCC 0px solid;
+        border-right: #CCCCCC 0px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 15px;
+        background-color: #FFFFFF;
+        padding: 3px 5px 3px 8px;
+}
+
+h4.four {
+        margin:0;
+        font-weight: bold;
+        font-size: 13px;
+        border-left: #C8C8FF 10px solid;
+        border-top: #CCCCCC 0px solid;
+        border-right: #CCCCCC 0px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 15px;
+        background-color: #FFFFFF;
+        padding: 3px 5px 3px 8px;
+}
+p.small {
+  font-size: 12px;
+}
+
+h5.one {
+        font-weight: normal;
+        color: blue;
+        font-size: 12px;
+}
+
+pre {
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+p.s {
+        font-weight: bold;
+        font-size: 13px;
+        color: red;
+}
+
+.en_f {
+  font-size: 11px;
+}
+
+h3.nmcone {
+        font-weight: bold;
+        font-size: 14px;
+        border-left: #8A2144 6px solid;
+        border-top: #CCCCCC 1px solid;
+        border-right: #CCCCCC 1px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 18px;
+        background-color: #EEEEEE;
+        padding: 3px 5px 3px 8px;
+}
+
+h4.nmcone {
+        font-weight: bold;
+        font-size: 13px;
+        border-left: #8A2144 10px solid;
+        border-top: #CCCCCC 0px solid;
+        border-right: #CCCCCC 0px solid;
+        border-bottom: #CCCCCC 1px solid;
+        line-height: 15px;
+        background-color: #FFFFFF;
+        padding: 3px 5px 3px 8px;
+}
+
+body.nmc {
+  background: #cbd7e4 url(https://vu.sfc.keio.ac.jp/sfc-sfs/img2/bg.gif) repeat-x;
+  margin-left:10px;
+  margin-right:auto;
+  padding: 0px;
+  line-height: 1.6em;
+  color: #333333;
+  font-size: 90%;
+  font-family: "Century Gothic",Verdana,Arial,sans-serif;
+  text-align:left;
+  width:850px;
+  float: left;
+}
+
+.form {
+  display:none;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.rubi {
+  font-size: 8px;
+}
+
+.td_p {
+  background: #FFCCCC;
+        width: 100px;
+}
+
+.td_p2 {
+  background: #FFCCCC;
+        width: 10px;
+}
+
+
+.td_g {
+  background: #efefef;
+}
+
+.td_m {
+  background: #CCCC99;
+        width: 100px;
+}
+
+.warning {
+  background-color:pink;
+  font-weight:bold;
+  font-size:20;
+}
+
+.syll_note {
+        font-size: 10px;
+        color: #6a6a00;
+}
+
+.breadcrumb {
+    list-style: none;
+    overflow: hidden;
+    font: 12px Helvetica, Arial, Sans-Serif;
+}
+.breadcrumb li {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 45px;
+    background: brown;
+    background: steelblue;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.breadcrumb  li:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid steelblue;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+}
+
+.breadcrumb li:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+}
+
+
+h5.one_tm {
+        font-weight: bold;
+        font-size: 12px;
+        border-left: #FFCC66 10px solid;
+        border-top: #CCCCCC 0px solid;
+        border-right: #CCCCCC 0px solid;
+        border-bottom: #CCCCCC 0px solid;
+        line-height: 12px;
+        background-color: #FFFFFF;
+        padding: 3px 5px 3px 8px;
+}
+
+div.highbox {
+  border-style: solid;
+  border-width: 2px;
+  border-color: steelblue;
+  padding: 10px 10px 10px 10px;
+  width: 95%;
+  background-color: white;
+  text-align: center;
+  color: steelblue;
+}
+
+/* asp */
+.asp{
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+.asp th{
+  width: 25%;
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #b9b9b9;
+}
+.asp td{
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid #b9b9b9;
+}
+
+/* gp */
+.gp{
+        width: 95%;
+        /* border-collapse: collapse; */
+}
+.gp th{
+  /* width: 25%; */
+        padding: 6px;
+        text-align: left;
+        vertical-align: top;
+        color: #333;
+        background-color: #eee;
+        border: 1px solid #b9b9b9;
+}
+.gp td{
+        padding: 6px;
+        background-color: #fff;
+        border: 1px solid #b9b9b9;
+}
+.no {
+        background: silver;
+}
+.yes {
+        background: white;
+}
+.pers-status-on {
+    background-color: #FFCCCC; 
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #FFCCCC;
+}
+
+.pers-status-off {
+    background-color: white; 
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #FFCCCC;
+}
+
+.pers-status-off:hover {
+    background-color: #FFCCCC; 
+}
+
+.pers-status-on:hover {
+    background-color: white; 
+    border: 2px solid #FFCCCC;
+}
+
+.pers-status-off:disabled {
+    background-color: gray;
+    border: 2px solid gray;
+    cursor: auto;
+}
+.pers-status-on:disabled {
+    background-color: gray;
+    border: 2px solid gray;
+    cursor: auto;
+}
+
+table.pers{
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+.pers th{
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #b9b9b9;
+}
+.pers td{
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid #b9b9b9;
+}

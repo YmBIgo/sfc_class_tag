@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   root to: "welcome#index"
   resources :comments, :only => [:create]
 
+  get 'sfc_pages/:page' => "pages#show"
+  get 'sfc_pages/:page/edit' => "pages#edit"
+
 end

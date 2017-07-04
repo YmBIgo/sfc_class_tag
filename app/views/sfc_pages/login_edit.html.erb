@@ -1,9 +1,10 @@
-<br>
-<br>
+<br><br>
+<a href="/sfc_pages/login/" class="btn btn-lg btn-warning">ページに戻る</a>
+<br><br>
+<div id="get-space"></div>
 <div class="sfc-area">
-  <%= render "edit_sfc_web/top" %>
+  <%= render "edit_sfc_web/login" %>
 </div>
-<%= render partial: "comments/comment", collection: @comments %>
 <div class="modal fade" id="createComment" tabindex="1" role="dialog" aria-labelledby="dialogHeader" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -18,8 +19,8 @@
             <%= f.select :category ,{'良いところ' => '1', '悪いところ' => '0'}, :prompt => '選択してください' %>
           </p>
           <%= f.hidden_field :href, :id => "href-area" %>
-          <%= f.hidden_field :page_name, :value => "top" %>
           <%= f.text_area :content, :class => "form-control" %>
+          <%= f.hidden_field :page_name, :value => "login" %>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -29,12 +30,5 @@
     </div>
   </div>
 </div>
-<% @comments.each do |c| %>
-  <h4>Xpath    : <%= c.href %></h4>
-  <h4>Position : <%= c.x_pos %>/<%= c.y_pos %></h4>
-  <h4>Category  :<%= c.category %> </h4>
-  <h4>Content  : <%= c.content %></h4>
-  <br>
-<% end %>
 
 <br><br>

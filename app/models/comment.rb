@@ -1,4 +1,8 @@
 class Comment < ApplicationRecord
+
+    # :href, :content, :x_pos, :y_pos, :category, :page_name
+    # validates :href, :content, :x_pos, :y_pos, :category, :page_name, presence: true
+
     def category_color
         if self.category==0
             return "black"
