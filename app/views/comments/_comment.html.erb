@@ -1,3 +1,3 @@
 <div class="comment" width="200" style="position:absolute;left:<%= comment.x_pos - 25 %>px;top:<%= comment.y_pos - 25 %>px">
-  <i class="fa <%= comment.category_icon %> faa-float animated" aria-hidden="true" style="font-size: 50px; color:<%= comment.category_color %>; opacity: 0.75;"></i>
+  <a href="/comments/<%= comment.id %>" target="_blank"><i class="fa <%= comment.category_icon %> faa-float animated" aria-hidden="true" style="font-size: 50px; color:<%= comment.category_color %>; opacity: 0.75;"></i></a>
 </div>

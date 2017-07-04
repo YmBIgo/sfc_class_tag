@@ -7,5 +7,6 @@ Rails.application.routes.draw do
 
   get 'sfc_pages/:page' => "pages#show"
   get 'sfc_pages/:page/edit' => "pages#edit"
+  get 'comments/:id' => "comments#show"
 
 end

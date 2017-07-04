@@ -1,5 +1,8 @@
 class CommentsController < ApplicationController
-
+  before_action :authenticate_user!
+  def show
+    @comment = Comment.find(params[:id])
+  end
   def create
     comment = Comment.create(comment_params)
     if comment.save
