@@ -48,7 +48,8 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: sfc_class_tag_production
+  encoding: utf8
+  adapter: postgresql
+  port: 5432
   username: sfc_class_tag
   password: <%= ENV['SFC_CLASS_TAG_DATABASE_PASSWORD'] %>
