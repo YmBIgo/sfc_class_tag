@@ -3,7 +3,7 @@
 <br>
 <div class="row">
 <% @henshins.each do |h| %>
-  <% if @comment.id == h.user_id %>
+  <% if h.user_id == current_user.id %>
     <div class="col-xs-offset-6 col-xs-6">
       <p class="alert alert-success text-right" style="width:80%;">
         <%= h.content %>
